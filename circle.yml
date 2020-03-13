@@ -1,0 +1,27 @@
+defaults: &defaults
+  working_directory: ~/app/
+  docker:
+    - image: circleci/node:dubnium
+
+version: 2
+jobs:
+  code-lint:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          key: node_modules-{{ checksum "package.json" }}
+      - run: NODE_ENV=development yarn
+      - save_cache:
+          key: node_modules-{{ checksum "package.json" }}
+          paths:
+            - ~/app/node_modules/
+      - run:
+          nane: Lint Everything
+          command: yarn lint
+
+workflows:
+  version: 2
+  application:
+    jobs:
+      - code-lint

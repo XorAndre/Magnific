@@ -1,0 +1,4 @@
+## This file contains a list of errors encountered during development and their solutions
+
+DESCRIPTION: Storybook knobs randomly stop working with no console errors
+SOLUTION: https://github.com/storybookjs/storybook/issues/5721

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="24px" viewBox="0 0 68 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.5%" y="-5.4%" width="100.9%" height="111.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Signature-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-Results-List-Filtered" transform="translate(-29.000000, -19.000000)" fill="#FFFFFF">
+            <g id="Group-27" filter="url(#filter-1)">
+                <g id="Global-Nav">
+                    <path d="M86,28 L88,28 L88,25 L86,25 L86,28 Z M94.5132493,38.76803 L94.5132493,32.056528 C94.5132493,30.9203051 93.9386521,30.2006973 93.0063562,29.9994691 C93.9386521,29.7984178 94.5132493,29.07881 94.5132493,27.9427641 L94.5132493,22.0515725 C94.5132493,20.9178274 93.6030466,20 92.4806795,20 L79.6528,20 L79.6528,27.2323593 L77.8834192,27.2323593 L77.8834192,20 L71.2935233,20 L71.2935233,27.2323593 L62.6686027,27.2323593 L62.6686027,25.5343964 L69.5246685,25.5343964 L69.5246685,20 L56.0785315,20 L56.0785315,27.2323593 L54.3091507,27.2323593 L54.3091507,20 L47.7190795,20 L47.7190795,34.4647187 L45.9500493,34.4647187 L45.9500493,20 L39.3594521,20 L39.3594521,34.4647187 L37.5905973,34.4647187 L37.5905973,20 L31,20 L31,38.76803 C31,39.4451622 31.5495233,40 32.2210849,40 L41.4341041,40 C42.1056658,40 42.655189,39.4451622 42.655189,38.76803 C42.655189,39.4451622 43.2043616,40 43.8757479,40 L53.0892932,40 C53.7599781,40 54.3098521,39.4451622 54.3098521,38.76803 L54.3098521,32.7667557 L56.0785315,32.7667557 L56.0785315,40 L69.5246685,40 L69.5246685,34.4647187 L62.6686027,34.4647187 L62.6686027,32.7667557 L71.2935233,32.7667557 L71.2935233,40 L77.8834192,40 L77.8834192,32.7667557 L79.6528,32.7667557 L79.6528,40 L86.2421699,40 L86.2421699,32.7667557 L87.4022356,32.7667557 C87.7388932,32.7678176 88.0115507,33.0435552 88.0115507,33.3833602 L88.0115507,38.76803 C88.0115507,39.4451622 88.5607233,40 89.2321096,40 L95,40 C94.6017973,39.7874449 94.5132493,39.4451622 94.5132493,38.76803 L94.5132493,38.76803 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

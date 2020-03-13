@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+    format('font-woff');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('https://fonts.googleapis.com/css?family=Barlow&display=swap')
+    format('font-woff');
+}
